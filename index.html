@@ -5,36 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan's Coffee Heaven</title>
     <link href="styles/output.css" rel="stylesheet">
+    <link rel="icon" href="images/coffee-to-go-svgrepo-com.webp">
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-50 text-gray-900 relative">
 
-    <header class="flex flex-wrap gap-10 justify-between items-center px-24 w-full leading-none bg-orange-100 min-h-[70px] max-md:px-5 max-md:max-w-full">
-  <div class="flex gap-1 items-center self-stretch my-auto text-2xl text-black min-w-[240px]">
-    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84812851b5243600d89cebbc93f533208a7ece9f47c15f20efea0d37a7415660?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Ethan's Coffee Heaven logo" class="object-contain shrink-0 self-stretch my-auto w-12 aspect-square" />
-    <h1 class="self-stretch my-auto">Ethan's Coffee Heaven</h1>
+<header class="static lg:sticky top-0 z-20 flex flex-wrap gap-2 justify-between items-center px-24 py-4 w-full leading-none bg-orange-100 min-h-[70px] max-md:px-5 max-md:max-w-full shadow-md">
+  <div class="flex self-stretch my-auto text-black min-w-[240px]">
+    <img loading="lazy" src="images/coffee-to-go-svgrepo-com.webp" alt="Cafe logo" class="hidden sm:block object-contain shrink-0 self-stretch my-auto w-12 aspect-square" />
+    <h1 class="self-stretch my-auto text-2xl">Ethan's Coffee Heaven</h1>
   </div>
-  <nav class="flex gap-8 items-center self-stretch my-auto text-base min-w-[240px] text-stone-500 w-[494px] max-md:max-w-full">
-    <a href="#" class="self-stretch my-auto">Home</a>
-    <a href="#" class="self-stretch my-auto">About</a>
-    <a href="#" class="self-stretch my-auto">Locations</a>
-    <a href="#" class="self-stretch my-auto">Menu</a>
-    <a href="#" class="self-stretch my-auto">Reviews</a>
-    <a href="#" class="self-stretch px-5 my-auto text-center bg-neutral-900 min-h-[40px] rounded-[58px] text-stone-300">Find Us</a>
+
+  <!-- desktop nav -->
+  <nav class="hidden sm:flex gap-6 my-auto justify-end self-stretch text-base min-w-[240px] text-stone-500 w-[494px] max-md:max-w-full">
+    <a href="#hero" class="self-stretch my-auto">Home</a>
+    <a href="#about" class="self-stretch my-auto">About</a>
+    <a href="#locations" class="self-stretch my-auto">Locations</a>
+    <a href="#menu" class="self-stretch my-auto">Menu</a>
+    <a href="#reviews" class="self-stretch my-auto">Reviews</a>
+    <a href="#contact" class="self-stretch px-5 pt-2 pb-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
   </nav>
+
+  <!-- mobile call button --> 
+  <a href="#contact" class="sm:hidden self-stretch my-auto px-5 py-3 text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
 </header>
 
 <main class="flex flex-col bg-white">
-  <section class="flex flex-col items-start px-14 pt-72 pb-36 max-md:px-5 max-md:py-24 max-md:max-w-full">
-    <h2 class="text-8xl font-semibold leading-none text-zinc-950 max-md:max-w-full max-md:text-4xl">Savour the Aroma</h2>
+  <!-- hero section -->
+  <section id="hero" class="flex flex-col items-start px-14 pt-72 pb-36 max-md:px-5 max-md:py-24 max-md:max-w-full">
+    <h2 class="text-8xl font-semibold leading-none text-zinc-950 max-md:max-w-full max-md:text-4xl">Best Coffee in Fiji</h2>
     <p class="mt-24 text-2xl font-medium leading-9 text-neutral-600 max-md:mt-10 max-md:max-w-full">
-      Welcome to Ethan's Coffee Heaven, where the art of coffee-making meets the comfort of a cozy atmosphere
+      Welcome to Ethan's Coffee Heaven, where the art of coffee-making meets laid back island vibes.
     </p>
-    <a href="#menu" class="px-14 pt-6 pb-9 mt-20 mb-0 text-lg leading-tight text-center text-yellow-900 bg-amber-300 rounded-[73px] max-md:px-5 max-md:mt-10 max-md:mb-2.5">
-      Explore Menu
+    <a href="#menu" class="px-14 py-6 mt-20 mb-0 text-lg leading-tight text-center text-yellow-900 bg-amber-300 rounded-[73px] max-md:px-5 max-md:mt-10 max-md:mb-2.5">
+      Explore Menus
     </a>
   </section>
 
-  <section class="px-16 py-24 bg-stone-50 max-md:px-5 max-md:max-w-full">
+  <!-- about section -->
+  <section id="about" class="px-16 py-24 bg-stone-50 max-md:px-5 max-md:max-w-full">
     <div class="flex gap-5 max-md:flex-col">
       <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c136b94ddfdfbce0b134243ba5b241e80cbcd707b7152795679cfff0df4bf60?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Coffee shop interior" class="object-contain grow w-full rounded-lg aspect-[1.13] max-md:mt-10 max-md:max-w-full" />
@@ -58,6 +66,7 @@
     </div>
   </section>
 
+  <!-- locations section -->
   <section id="locations" class="flex z-10 flex-col px-14 py-28 w-full bg-orange-100 max-md:px-5 max-md:py-24 max-md:max-w-full">
     <h2 class="self-center text-7xl font-semibold leading-tight text-center text-neutral-900 max-md:text-4xl">Locations</h2>
     <div class="mt-24 mb-0 w-full max-md:mt-10 max-md:mb-2.5 max-md:max-w-full">
@@ -110,6 +119,7 @@
     </div>
   </section>
 
+  <!-- menu section -->
   <section id="menu" class="flex flex-col px-20 py-40 w-full bg-stone-700 max-md:px-5 max-md:py-24 max-md:max-w-full">
     <h2 class="self-center text-6xl font-semibold leading-tight text-center text-white max-md:text-4xl">Menus</h2>
     <div class="mt-20 mb-0 max-md:mt-10 max-md:mb-2.5 max-md:max-w-full">
@@ -148,16 +158,59 @@
     </div>
   </section>
 
-  <section class="flex flex-col px-20 pt-36 leading-tight text-center bg-white pb-[816px] max-md:px-5 max-md:py-24 max-md:max-w-full">
+  <!-- reviews section -->
+  <section id="reviews" class="flex flex-col px-20 pt-36 leading-tight text-center bg-white pb-[816px] max-md:px-5 max-md:py-24 max-md:max-w-full">
     <h2 class="overflow-hidden px-16 py-px text-6xl font-semibold whitespace-nowrap bg-white text-gray-950 max-md:px-5 max-md:max-w-full max-md:text-4xl">
       Reviews
     </h2>
     <div class="self-center mt-8 mb-0 ml-5 text-4xl text-black border border-black border-solid max-md:mb-2.5 max-md:max-w-full">
-      Third party links go here
+      <p>Third party links below</p>
+
+      <div
+        class="mb-24 mx-auto min-h-screen max-w-screen-xl px-4"
+      >
+        <h2
+          class="text-center text-3xl lg:text-5xl my-12 tracking-wide font-light"
+        >
+          What our customers say
+        </h2>
+
+        <!-- google reviews  -->
+        <div class="mb-8">
+          <h3 class="mb-2 text-[0px] tracking-wide">Google Reviews</h3>
+          <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/114009' frameborder='0' width='100%' height='1000'></iframe>
+        </div>
+        
+        <a
+          href="https://g.page/r/CRSPZUyY67JkEB0/review"
+          class="mb-12 flex items-center justify-center mx-auto max-w-lg p-4 text-lg bg-white text-[#3480dc] rounded-full shadow-md transition-colors hover:bg-primaryHover"
+        >
+          <img
+            src="images/google-svgrepo-com.svg"
+            alt="google logo"
+            class="mr-4"
+            height="36px"
+            width="36px"
+          />
+          <span>Review Ethan's Coffee Heaven on Google!</span>
+        </a>
+
+        <!-- tripadvisor reviews, hidden on mobile and tablet -->
+        <div class="hidden xl:block">
+          <h3 class="ml-2 mb-[-24px] text-2xl tracking-wide">Trip Advisor Reviews</h3>
+          <div class="sk-ww-tripadvisor-reviews" data-embed-id="114321"></div>
+          <script
+            src="https://widgets.sociablekit.com/tripadvisor-reviews/widget.js"
+            async
+            defer
+          ></script>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="px-16 py-24 bg-red-100 max-md:px-5 max-md:max-w-full">
+  <!-- contact section -->
+  <section id="contact" class="px-16 py-24 bg-red-100 max-md:px-5 max-md:max-w-full">
     <div class="flex gap-5 max-md:flex-col">
       <div class="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
         <div class="flex flex-col items-start self-stretch my-auto w-full leading-tight max-md:mt-10 max-md:max-w-full">

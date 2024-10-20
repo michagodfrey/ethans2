@@ -1,7 +1,15 @@
 # New design for Ethan's Coffee Heaven
 
-Built with HTML and Tailwind CSS.
+An updated design for Ethan's Coffee Heaven's website.
 
-Design done with Dora plugin for Figma.
+## Built with
 
-Code done with Builder.io. plugin for Figma.
+HTML and Tailwind CSS.
+
+Design done in [Figma](https://www.figma.com/) with [Dora](https://www.dora.run/ai) plugin and [Builder.io](https://www.builder.io/) plugin.
+
+Social media reviews embedded with [SocialbleKit](https://www.sociablekit.com/).
+
+## Resources
+
+Coffee to go and social media icons from [svgrepo](https://www.svgrepo.com).

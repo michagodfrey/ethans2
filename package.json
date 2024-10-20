@@ -1,7 +1,5 @@
 {
   "name": "ethans-2",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
   },
