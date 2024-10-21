@@ -17,11 +17,11 @@
 
   <!-- desktop nav -->
   <nav class="hidden sm:flex gap-6 my-auto justify-end self-stretch text-base min-w-[240px] text-stone-500 w-[494px] max-md:max-w-full">
-    <a href="#hero" class="self-stretch my-auto">Home</a>
-    <a href="#about" class="self-stretch my-auto">About</a>
-    <a href="#locations" class="self-stretch my-auto">Locations</a>
-    <a href="#menu" class="self-stretch my-auto">Menu</a>
-    <a href="#reviews" class="self-stretch my-auto">Reviews</a>
+    <a href="#hero" class="self-stretch my-auto hover:underline">Home</a>
+    <a href="#about" class="self-stretch my-auto hover:underline">About</a>
+    <a href="#locations" class="self-stretch my-auto hover:underline">Locations</a>
+    <a href="#menu" class="self-stretch my-auto hover:underline">Menu</a>
+    <a href="#reviews" class="self-stretch my-auto hover:underline">Reviews</a>
     <a href="#contact" class="self-stretch px-5 pt-2 pb-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
   </nav>
 
@@ -36,7 +36,7 @@
     <p class="mt-24 text-2xl font-medium leading-9 text-neutral-600 max-md:mt-10 max-md:max-w-full">
       Welcome to Ethan's Coffee Heaven, where the art of coffee-making meets laid back island vibes.
     </p>
-    <a href="#menu" class="px-14 py-6 mt-20 mb-0 text-lg leading-tight text-center text-yellow-900 bg-amber-300 rounded-[73px] max-md:px-5 max-md:mt-10 max-md:mb-2.5">
+    <a href="#menu" class="px-14 py-6 mt-20 mb-0 text-lg leading-tight text-center text-yellow-900 font-bold bg-amber-300 rounded-[73px] max-md:px-5 max-md:mt-10 max-md:mb-2.5">
       Explore Menus
     </a>
   </section>
@@ -235,29 +235,50 @@
     </div>
   </section>
 
-  <footer class="flex flex-wrap gap-10 justify-center items-start p-24 w-full bg-amber-300 min-h-[404px] max-md:px-5 max-md:max-w-full">
-    <div class="flex flex-col min-h-[204px] min-w-[240px] w-[309px]">
-      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c654af5ce452bc8ae0973b2728c1a2c57dfdd9cf2f24e21b769acc221e7e239?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Ethan's Coffee Heaven logo" class="object-contain w-full aspect-[1.52]" />
-    </div>
-    <nav class="flex gap-8 items-center text-base font-bold leading-none text-black min-w-[240px] w-[508px] max-md:max-w-full">
-      <div class="flex flex-col flex-1 shrink items-start self-stretch my-auto w-full basis-0 min-w-[240px] max-md:max-w-full">
-        <h3 class="self-stretch text-base text-stone-800">Follow Us</h3>
-        <div class="flex overflow-hidden gap-5 justify-between pr-20 mt-5 max-w-full whitespace-nowrap bg-amber-300 w-[373px] max-md:pr-5">
-          <div class="flex gap-2">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/616d7d40c7564b6e5ef6a100f7455fad3bbe5946b5de238593a924681d24c612?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain shrink-0 w-16 aspect-square" />
-            <span class="my-auto">Labasa</span>
-          </div>
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3b5944944274931a7876edd6aed970065f177fe9307f62db4f917009ce10af4?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Social media icon" class="object-contain shrink-0 w-16 aspect-square" />
-        </div>
-        <div class="flex overflow-hidden gap-5 justify-between pr-20 mt-5 max-w-full whitespace-nowrap bg-amber-300 w-[373px] max-md:pr-5">
-          <div class="flex gap-2">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/aca4d4459b13d9b757dc2472c59e999457bc2f5456d5c4cf80794f1e57dd57bc?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain shrink-0 w-16 aspect-square" />
-            <span class="my-auto">Savusavu</span>
-          </div>
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c2e276988c3eed10856edef5546d729c2743db0b8153ae1ea65afed7f151932?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Social media icon" class="object-contain shrink-0 self-start w-16 aspect-[1.03]" />
+  <footer class="p-24 w-full bg-amber-300 min-h-[400px]">
+    <div class="lg:flex lg:flex-row-reverse border border-black">
+      <!-- social links -->
+      <div class="border border-black flex flex-col items-center">
+        <h3 class="text-center text-lg mb-4 font-bold text-stone-800">Follow Us</h3>
+        <div class="mx-auto flex justify-center flex-wrap gap-4 md:gap-8 border border-black">
+      
+            <!-- facebook Labasa -->
+            <div class="transition-transform duration-200 ease-in-out hover:-translate-y-1 text-center">
+              <a href="https://www.facebook.com/ethanscoffee" target="_blank">
+                <img loading="lazy" src="images/facebook-svgrepo-com.svg" alt="Facebook icon" class="object-contain shrink-0 w-16" />
+              </a>
+              <span class="mt-1 text-sm font-semibold">Labasa</span>
+            </div>
+
+            <!-- instagram Labasa -->
+            <a href="https://www.instagram.com/ethanscoffeeheaven/" target="_blank" class="transition-transform duration-200 ease-in-out hover:-translate-y-1">
+              <img loading="lazy" src="images/instagram-svgrepo-com.svg" alt="Instagram icon" class="object-contain shrink-0 w-16" />
+            </a>
+
+            <!-- trip advisor Savusavu -->
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g297565-d24862689-Reviews-Ethans_Coffee_Heaven-Savusavu_Vanua_Levu.html" target="_blank" class="transition-transform duration-200 ease-in-out hover:-translate-y-1">
+              <img loading="lazy" src="images/tripadvisor.svg" alt="Trip Advisor icon" class="object-contain shrink-0 self-start w-16" />
+            </a>
+            
+            <!-- facebook Savusavu -->
+            <div class="transition-transform duration-200 ease-in-out hover:-translate-y-1 text-center">
+              <a href="https://www.facebook.com/people/Ethans-coffee-heaven/100064196137922/" target="_blank">
+                <img loading="lazy" src="images/facebook-svgrepo-com.svg" alt="Facebook icon" class="object-contain shrink-0 w-16" />
+              </a>
+              <span class="mt-1 text-sm font-semibold">Savusavu</span>
+            </div>
         </div>
       </div>
-    </nav>
+      
+      <!-- cafe logo -->
+      <div>
+        <img loading="lazy" src="images/ech-banner-removebg.webp" alt="Ethan's Coffee Heaven logo" class="object-contain mx-auto w-full max-w-[600px] aspect-[1.5]" />
+      </div>
+    </div>
+
+    <p class="text-center text-sm text-stone-800">
+      Website by <a href="https://michael-godfrey.com/" target="_blank" class="hover:underline">Michael Godfrey</a>.
+    </p>
   </footer>
 </main>
 
