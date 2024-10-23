@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link href="styles/output.css" rel="stylesheet">
     <link rel="icon" href="images/coffee-to-go-svgrepo-com.webp">
 </head>
-<body class="bg-gray-50 text-gray-900 relative">
+<body class="bg-gray-50 text-gray-900">
 
 <header class="static lg:sticky top-0 z-20 flex flex-wrap gap-2 justify-between items-center px-24 py-4 w-full leading-none bg-orange-100 min-h-[70px] max-md:px-5 max-md:max-w-full shadow-md">
   <div class="flex self-stretch my-auto text-black min-w-[240px]">
@@ -22,7 +22,7 @@
     <a href="#locations" class="self-stretch my-auto hover:underline">Locations</a>
     <a href="#menu" class="self-stretch my-auto hover:underline">Menu</a>
     <a href="#reviews" class="self-stretch my-auto hover:underline">Reviews</a>
-    <a href="#contact" class="self-stretch px-5 pt-2 pb-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
+    <a href="#contact" class="self-stretch px-5 py-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
   </nav>
 
   <!-- mobile call button --> 
@@ -58,7 +58,7 @@
           <p class="mt-12 leading-9 text-stone-400 max-md:mt-10 max-md:max-w-full">
             At Ethan's Coffee Heaven, we believe that every sip should be a delightful experience. Our commitment to quality and exceptional service is at the heart of everything we do.
           </p>
-          <a href="#locations" class="px-9 pt-4 pb-9 mt-16 text-base text-center bg-amber-300 rounded-[63px] text-stone-600 max-md:px-5 max-md:mt-10">
+          <a href="#locations" class="px-8 py-4 mt-16 text-base text-center bg-amber-300 rounded-[63px] text-stone-600 max-md:px-5 max-md:mt-10">
             See Locations
           </a>
         </div>
@@ -159,12 +159,11 @@
   </section>
 
   <!-- reviews section -->
-  <section id="reviews" class="flex flex-col px-20 pt-36 leading-tight text-center bg-white pb-[816px] max-md:px-5 max-md:py-24 max-md:max-w-full">
+  <section id="reviews" class="flex flex-col px-20 pt-36 leading-tight text-center max-md:px-5 max-md:max-w-full">
     <h2 class="overflow-hidden px-16 py-px text-6xl font-semibold whitespace-nowrap bg-white text-gray-950 max-md:px-5 max-md:max-w-full max-md:text-4xl">
       Reviews
     </h2>
-    <div class="self-center mt-8 mb-0 ml-5 text-4xl text-black border border-black border-solid max-md:mb-2.5 max-md:max-w-full">
-      <p>Third party links below</p>
+    <div class="self-center mt-8 mb-0 ml-5 text-4xl text-black max-md:mb-2.5 max-md:max-w-full">
 
       <div
         class="mb-24 mx-auto min-h-screen max-w-screen-xl px-4"
@@ -176,14 +175,14 @@
         </h2>
 
         <!-- google reviews  -->
-        <div class="mb-8">
+        <div class="mb-8 border border-b-black">
           <h3 class="mb-2 text-[0px] tracking-wide">Google Reviews</h3>
           <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/114009' frameborder='0' width='100%' height='1000'></iframe>
         </div>
         
         <a
           href="https://g.page/r/CRSPZUyY67JkEB0/review"
-          class="mb-12 flex items-center justify-center mx-auto max-w-lg p-4 text-lg bg-white text-[#3480dc] rounded-full shadow-md transition-colors hover:bg-primaryHover"
+          class="mb-12 flex items-center justify-center mx-auto max-w-lg p-4 text-lg bg-white text-[#3480dc] rounded-full shadow-md transition-colors hover:bg-amber-300 duration-300"
         >
           <img
             src="images/google-svgrepo-com.svg"
@@ -195,10 +194,10 @@
           <span>Review Ethan's Coffee Heaven on Google!</span>
         </a>
 
-        <!-- tripadvisor reviews, hidden on mobile and tablet -->
-        <div class="hidden xl:block">
-          <h3 class="ml-2 mb-[-24px] text-2xl tracking-wide">Trip Advisor Reviews</h3>
-          <div class="sk-ww-tripadvisor-reviews" data-embed-id="114321"></div>
+        <!-- tripadvisor reviews, hidden on smaller screens -->
+        <div class="hidden lg:block">
+          <h3 class="ml-2 mb-6 tracking-wide">Trip Advisor Reviews</h3>
+          <div class="sk-ww-tripadvisor-reviews text-sm" data-embed-id="114321"></div>
           <script
             src="https://widgets.sociablekit.com/tripadvisor-reviews/widget.js"
             async
@@ -219,13 +218,13 @@
           <p class="self-stretch mt-16 text-xl font-medium leading-9 text-stone-600 max-md:mt-10 max-md:max-w-full">
             Immerse yourself in the rich, aromatic world of Ethan's Coffee Heaven, call today!
           </p>
-          <a href="tel:+1234567890" class="flex gap-10 px-7 py-1 mt-20 text-3xl text-center bg-amber-300 rounded-[53px] text-gray-950 max-md:px-5 max-md:mt-10">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3360b0f9aec1fd80ec1707efdcf32a3f0a4ecf76557a5a1e80790314146d6c0?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain shrink-0 w-12 aspect-square" />
-            <span class="flex-auto self-start">Call Labasa</span>
+          <a href="tel:+6798082204" class="flex gap-4 px-8 py-2 mt-12 text-xl text-center bg-amber-300 rounded-[50px] text-gray-950 max-md:px-5 max-md:mt-10 w-[240px] hover:bg-amber-500 transition duration-300">
+            <img loading="lazy" src="images/phone-svgrepo-black.webp" alt="phone icon" class="object-contain shrink-0 w-10 aspect-square" />
+            <span class="my-auto">Call Labasa</span>
           </a>
-          <a href="tel:+0987654321" class="flex gap-10 px-7 py-1 mt-12 text-3xl text-center bg-amber-300 rounded-[53px] text-gray-950 max-md:px-5 max-md:mt-10">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3360b0f9aec1fd80ec1707efdcf32a3f0a4ecf76557a5a1e80790314146d6c0?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain shrink-0 w-12 aspect-square" />
-            <span class="flex-auto self-start">Call Savusavu</span>
+          <a href="tel:+6799078562" class="flex gap-4 px-8 py-2 mt-12 text-xl text-center bg-amber-300 rounded-[50px] text-gray-950 max-md:px-5 max-md:mt-10 w-[240px] hover:bg-amber-500 transition duration-300">
+            <img loading="lazy" src="images/phone-svgrepo-black.webp" alt="phone icon" class="object-contain shrink-0 w-10 aspect-square" />
+            <span class="my-auto">Call Savusavu</span>
           </a>
         </div>
       </div>
@@ -236,11 +235,11 @@
   </section>
 
   <footer class="p-24 w-full bg-amber-300 min-h-[400px]">
-    <div class="lg:flex lg:flex-row-reverse border border-black">
+    <div class="lg:flex lg:flex-row-reverse justify-around items-center">
       <!-- social links -->
-      <div class="border border-black flex flex-col items-center">
+      <div class="flex flex-col items-center">
         <h3 class="text-center text-lg mb-4 font-bold text-stone-800">Follow Us</h3>
-        <div class="mx-auto flex justify-center flex-wrap gap-4 md:gap-8 border border-black">
+        <div class="mx-auto flex justify-center flex-wrap gap-4 md:gap-8">
       
             <!-- facebook Labasa -->
             <div class="transition-transform duration-200 ease-in-out hover:-translate-y-1 text-center">
@@ -272,13 +271,12 @@
       
       <!-- cafe logo -->
       <div>
-        <img loading="lazy" src="images/ech-banner-removebg.webp" alt="Ethan's Coffee Heaven logo" class="object-contain mx-auto w-full max-w-[600px] aspect-[1.5]" />
+        <img loading="lazy" src="images/ech-banner-removebg.webp" alt="Ethan's Coffee Heaven logo" class="object-cover mx-auto w-full max-w-[600px] aspect-[1.5]" />
+        <p class="text-center text-sm text-stone-800">
+          Website by <a href="https://michael-godfrey.com/" target="_blank" class="hover:underline">Michael Godfrey</a>.
+        </p>
       </div>
     </div>
-
-    <p class="text-center text-sm text-stone-800">
-      Website by <a href="https://michael-godfrey.com/" target="_blank" class="hover:underline">Michael Godfrey</a>.
-    </p>
   </footer>
 </main>
 
