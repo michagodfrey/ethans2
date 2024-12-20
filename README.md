@@ -1,6 +1,6 @@
-# New design for Ethan's Coffee Heaven
+# Ethan's Coffee Heaven - Cafe in Savusavu
 
-An updated design for Ethan's Coffee Heaven's website.
+Files for Ethan's Coffee Heaven's website, a cafe in Savusavu, Fiji.
 
 ## Built with
 
