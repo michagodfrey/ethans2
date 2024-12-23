@@ -17,36 +17,41 @@
 <header class="static lg:sticky top-0 z-20 flex flex-wrap gap-2 justify-between items-center px-24 py-4 w-full leading-none bg-orange-100 min-h-[70px] max-md:px-5 max-md:max-w-full shadow-md">
   <div class="flex self-stretch my-auto text-black min-w-[240px]">
     <img loading="lazy" src="images/coffee-to-go-svgrepo-com.webp" alt="Cafe logo" class="hidden sm:block object-contain shrink-0 self-stretch my-auto w-12 aspect-square" />
-    <h1 class="self-stretch my-auto text-2xl">Ethan's Coffee Heaven <span style="font-family: 'Pacifico'">Savusavu</span></h1>
+    <h1 class="self-stretch my-auto text-2xl">ETHAN'S <span style="font-family: 'Pacifico'">Coffee Heaven </span>- Savusavu</h1>
   </div>
 
   <!-- desktop nav -->
   <nav class="hidden sm:flex gap-6 my-auto justify-end self-stretch text-base min-w-[240px] text-stone-500 w-[494px] max-md:max-w-full">
     <a href="#hero" class="self-stretch my-auto hover:underline">Home</a>
-    <a href="#about" class="self-stretch my-auto hover:underline">About</a>
+    <a href="#location" class="self-stretch my-auto hover:underline">Location</a>
     <a href="#menu" class="self-stretch my-auto hover:underline">Menu</a>
     <a href="#reviews" class="self-stretch my-auto hover:underline">Reviews</a>
-    <a href="#contact" class="self-stretch px-5 py-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
+    <a href="#contact" class="self-stretch px-5 py-3 my-auto text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-full font-bold text-stone-300 whitespace-nowrap">Contact</a>
   </nav>
 
   <!-- mobile call button --> 
-  <a href="#contact" class="sm:hidden self-stretch my-auto px-5 py-3 text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-[58px] font-bold text-stone-300 whitespace-nowrap">Call Us</a>
+  <a href="#contact" class="sm:hidden self-stretch my-auto px-5 py-3 text-center bg-neutral-900 hover:bg-neutral-600 transition duration-300 min-h-[40px] rounded-full font-bold text-stone-300 whitespace-nowrap">Contact</a>
 </header>
 
 <main class="flex flex-col bg-white">
   <!-- hero section -->
-  <section id="hero" class="flex flex-col items-start px-14 pt-72 pb-36 max-md:px-5 max-md:py-24 max-md:max-w-full">
-    <h2 class="text-8xl font-semibold leading-none text-zinc-950 max-md:max-w-full max-md:text-4xl">Best Coffee in Fiji</h2>
-    <p class="mt-24 text-2xl font-medium leading-9 text-neutral-600 max-md:mt-10 max-md:max-w-full">
+  <section id="hero" class="bg-hero bg-repeat-round bg-cover min-h-screen flex flex-col items-end px-14 pt-72 pb-36 max-md:px-5 max-md:py-24 max-md:max-w-full">
+    <h2 class="text-8xl font-semibold leading-none text-black max-md:max-w-full max-md:text-4xl">Best Coffee in Fiji</h2>
+    <p class="mt-24 text-2xl font-medium leading-9 text-neutral-600 max-md:mt-10 max-md:max-w-full bg-white p-2 rounded-full">
       Welcome to Ethan's Coffee Heaven, where the art of coffee-making meets laid back island vibes.
     </p>
-    <a href="#menu" class="px-14 py-6 mt-20 mb-0 text-lg leading-tight text-center text-yellow-900 font-bold bg-amber-300 rounded-[73px] max-md:px-5 max-md:mt-10 max-md:mb-2.5">
-      Explore Menus
-    </a>
+    <div class="flex gap-4 mt-20">
+      <a href="#location" class="px-14 py-6 text-xl leading-tight text-center border-4 border-yellow-900 text-yellow-900 font-bold bg-amber-300 rounded-full max-md:px-5 hover:bg-yellow-900 hover:text-amber-300 transition duration-300">
+        Find Us
+      </a>
+      <a href="#menu" class="px-14 py-6 text-xl leading-tight text-center border-4 border-yellow-900 text-yellow-900 font-bold bg-amber-300 rounded-full max-md:px-5 hover:bg-yellow-900 hover:text-amber-300 transition duration-300">
+        Explore Menus
+      </a>
+    </div>
   </section>
 
-  <!-- about section -->
-  <section id="about" class="px-16 py-24 bg-stone-50 max-md:px-5 max-md:max-w-full">
+  <!-- location section -->
+  <section id="location" class="px-16 py-24 bg-stone-50 max-md:px-5 max-md:max-w-full">
     <div class="flex gap-5 max-md:flex-col">
       <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c136b94ddfdfbce0b134243ba5b241e80cbcd707b7152795679cfff0df4bf60?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Coffee shop interior" class="object-contain grow w-full rounded-lg aspect-[1.13] max-md:mt-10 max-md:max-w-full" />
@@ -57,13 +62,13 @@
             Sip on our signature roasts and discover the perfect blend for your taste buds
           </p>
           <h3 class="mt-11 text-6xl font-semibold leading-[69px] text-neutral-900 max-md:mt-10 max-md:text-4xl max-md:leading-[51px]">
-            Explore Our location
+            Find Us
           </h3>
           <p class="mt-12 leading-9 text-stone-400 max-md:mt-10 max-md:max-w-full">
             At Ethan's Coffee Heaven, we believe that every sip should be a delightful experience. Our commitment to quality and exceptional service is at the heart of everything we do.
           </p>
-          <a href="#location" class="px-8 py-4 mt-16 text-base text-center bg-amber-300 rounded-[63px] text-stone-600 max-md:px-5 max-md:mt-10">
-            See location
+          <a href="/" class="px-8 py-4 mt-16 text-base text-center bg-amber-300 rounded-[63px] text-stone-600 max-md:px-5 max-md:mt-10">
+            Directions
           </a>
         </div>
       </div>
@@ -80,13 +85,13 @@
         <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
           <div class="flex flex-col grow items-center px-8 py-16 w-full leading-tight text-center rounded-xl border border-solid bg-stone-700 border-stone-50 max-md:px-5 max-md:mt-10">
             <a href="menus/drinks.pdf">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dbb8884672a6bdf8b4a24a5a6d1a04f732d30a1424c22d9be17a85db88690341?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain aspect-[0.99] w-[75px]" />
+              <img loading="lazy" src="/images/menu-drinks.webp" alt="A coffee" class="rounded-lg">
             </a>
             <a href="menus/drinks.pdf">
-              <h3 class="mt-12 text-3xl font-semibold text-stone-50 max-md:mt-10">Coffee & Drinks</h3>
+              <h3 class="mt-12 text-4xl font-semibold text-stone-50 max-md:mt-10">Coffee & Drinks</h3>
             </a>
-            <a href="menus/drinks.pdf" class="mt-5 text-xl font-medium text-stone-400 hover:text-white">View Menu</a>
-            <p class="self-stretch mt-9 text-base leading-8 text-stone-300">
+            <a href="menus/drinks.pdf" class="mt-5 text-2xl font-medium text-stone-400 hover:text-white">View Menu</a>
+            <p class="self-stretch mt-9 text-lg leading-8 text-stone-300">
               Freshly brewed coffees, refreshing smoothies and slushies
             </p>
           </div>
@@ -94,13 +99,13 @@
         <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div class="flex flex-col grow items-center px-8 py-16 w-full leading-tight text-center rounded-xl border border-solid bg-stone-700 border-stone-50 max-md:px-5 max-md:mt-10">
             <a href="menus/breakfast.pdf">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dbb8884672a6bdf8b4a24a5a6d1a04f732d30a1424c22d9be17a85db88690341?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain aspect-[0.99] w-[75px]" />
+              <img loading="lazy" src="/images/menu-breakfast.webp" alt="Big breakfast with everything" class="rounded-lg">
             </a>
             <a href="menus/breakfast.pdf">
-              <h3 class="mt-12 text-3xl font-semibold text-stone-50 max-md:mt-10">Breakfast</h3>
+              <h3 class="mt-12 text-4xl font-semibold text-stone-50 max-md:mt-10">Breakfast</h3>
             </a>
-            <a href="menus/breakfast.pdf" class="mt-5 text-xl font-medium text-stone-400 hover:text-white">View Breakfast Menu</a>
-            <p class="self-stretch mt-9 text-base leading-8 text-stone-300">
+            <a href="menus/breakfast.pdf" class="mt-5 text-2xl font-medium text-stone-400 hover:text-white">View Breakfast Menu</a>
+            <p class="self-stretch mt-9 text-lg leading-8 text-stone-300">
               Big breakfasts, light breakfast and Fijian breakfasts
             </p>
           </div>
@@ -108,13 +113,13 @@
         <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div class="flex flex-col grow items-center px-5 py-16 w-full leading-tight text-center rounded-xl border border-solid bg-stone-700 border-stone-50 max-md:pr-5 max-md:mt-10">
             <a href="menus/main.pdf">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dbb8884672a6bdf8b4a24a5a6d1a04f732d30a1424c22d9be17a85db88690341?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="" class="object-contain aspect-[0.99] w-[75px]" />
+              <img loading="lazy" src="/images/menu-lunch.webp" alt="Burger and chips" class="rounded-lg" />
             </a>
             <a href="menus/main.pdf">
-              <h3 class="self-stretch mt-12 text-3xl font-semibold text-stone-50 max-md:mt-10">Lunch</h3>
+              <h3 class="self-stretch mt-12 text-4xl font-semibold text-stone-50 max-md:mt-10">Lunch</h3>
             </a>
-            <a href="menus/main.pdf" class="mt-5 text-xl font-medium text-stone-400 hover:text-white">View Lunch Menu</a>
-            <p class="mt-9 text-base leading-8 text-stone-300">
+            <a href="menus/main.pdf" class="mt-5 text-2xl font-medium text-stone-400 hover:text-white">View Lunch Menu</a>
+            <p class="mt-9 text-lg leading-8 text-stone-300">
               Burgers, pizzas, wraps, curries and more
             </p>
             
@@ -143,7 +148,7 @@
         <!-- google reviews  -->
         <div class="mb-8 border border-b-black">
           <h3 class="mb-2 text-[0px] tracking-wide">Google Reviews</h3>
-          <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/114009' frameborder='0' width='100%' height='1000'></iframe>
+          <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/114009' frameborder='0' width='100%' height='2000'></iframe>
         </div>
         
         <a
@@ -179,20 +184,20 @@
     <div class="flex gap-5 max-md:flex-col">
       <div class="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
         <div class="flex flex-col items-start self-stretch my-auto w-full leading-tight max-md:mt-10 max-md:max-w-full">
-          <p class="text-lg text-stone-500">We can take your order</p>
-          <h2 class="mt-11 text-6xl font-semibold leading-none text-neutral-950 max-md:mt-10 max-md:text-4xl">Get in touch</h2>
+          <p class="text-xl text-stone-600">We can take your order</p>
+          <h2 class="mt-11 text-6xl font-semibold leading-none text-neutral-950 max-md:mt-10 max-md:text-4xl">Give us a call</h2>
           <p class="self-stretch mt-16 text-xl font-medium leading-9 text-stone-600 max-md:mt-10 max-md:max-w-full">
             Immerse yourself in the rich, aromatic world of Ethan's Coffee Heaven, call today!
           </p>
           
           <a href="tel:+6799078562" class="flex gap-4 px-8 py-2 mt-12 text-xl text-center bg-amber-300 rounded-[50px] text-gray-950 max-md:px-5  hover:bg-amber-500 transition duration-300">
             <img loading="lazy" src="images/phone-svgrepo-black.webp" alt="phone icon" class="object-contain shrink-0 w-10 aspect-square" />
-            <span class="my-auto">Call Ethan's Coffee Heaven Savusavu</span>
+            <span class="my-auto">Call us on 907 8562</span>
           </a>
         </div>
       </div>
       <div class="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/729550dfe4cf9c54164be5eb6e2a5a0f4a75b18aa808a3025e8c1ab797b69d68?placeholderIfAbsent=true&apiKey=78474f5b74754d1284f43fa6ea474ef6" alt="Coffee shop interior" class="object-contain grow w-full rounded-2xl aspect-[1.27] max-md:mt-10 max-md:max-w-full" />
+        <img loading="lazy" src="images/ech-contact.jpg" alt="Coffee shop interior" class="object-cover grow w-full rounded-2xl aspect-[1.25] max-md:mt-10 max-md:max-w-full" />
       </div>
     </div>
   </section>
