@@ -905,7 +905,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url('images/ech-hero.webp');
+  background-image: url('/images/ech-hero.webp');
 }
 
 .bg-cover {
