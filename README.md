@@ -12,4 +12,4 @@ Social media reviews embedded with [SocialbleKit](https://www.sociablekit.com/).
 
 ## Resources
 
-Coffee to go and social media icons from [svgrepo](https://www.svgrepo.com).
+Svg icons from [svgrepo](https://www.svgrepo.com).
