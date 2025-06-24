@@ -1,5 +1,7 @@
 # Ethan's Coffee Heaven - Cafe in Savusavu
 
+Retired project. This cafe closed in June 2025.
+
 Files for Ethan's Coffee Heaven's website, a cafe in Savusavu, Fiji.
 
 ## Built with
